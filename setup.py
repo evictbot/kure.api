@@ -7,7 +7,7 @@ setup(
     name="resent-api",
     version="1.0.0",
     description="A Python API wrapper for pretend api",
-    author="Pretend LLC",
+    author="Resent",
     url="https://github.com/resentbot/resent.api",
     install_requires=requirements,
     python_requires='>=3.8.0',
