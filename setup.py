@@ -6,7 +6,7 @@ with open("requirements.txt") as f:
 setup(
     name="resent-api",
     version="1.0.0",
-    description="A Python API wrapper for pretend api",
+    description="A Python API wrapper for resent api",
     author="Resent",
     url="https://github.com/resentbot/resent.api",
     install_requires=requirements,
