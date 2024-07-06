@@ -12,12 +12,12 @@ class API():
     Parameters 
     ----------
     api_key: :class:`str`
-        A valid Resent API key
+        A valid kure API key
     """
 
     def __init__(self, api_key: str): 
         self.api_key = api_key 
-        self.base_url = "https://api.resent.dev"
+        self.base_url = "https://kure.pl"
         self.headers = {
             "api-key": self.api_key
         }
@@ -292,7 +292,7 @@ class API():
         user_token: :class:`str`
             A Discord User token
         invite_code: :class:`str`
-            The server's invite code. If server's invite is discord.gg/resent invite code is resent
+            The server's invite code. If server's invite is discord.gg/evict invite code is evict
         """
 
         return await self.__do_request(
@@ -309,7 +309,7 @@ class API():
         user: discord.User
     ) -> str: 
         """
-        Post an user's avatar to resent's avatar network (bot developer only endpoint)
+        Post an user's avatar to kure's avatar network (bot developer only endpoint)
         
         Parameters
         ----------

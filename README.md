@@ -1,7 +1,7 @@
-resent-api
+kure-api
 ==========
 
-A Python API wrapper for [resent's API](https://api.resent.dev)
+A Python API wrapper for [kure's API](https://kure.pl)
 
 Installing
 ==========
@@ -9,14 +9,14 @@ Installing
 **Python 3.8 or higher is required**
 
 ```sh
-pip install git+https://github.com/resentbot/resent.api
+pip install git+https://github.com/evictbot/kure.api
 ```
 
 Usage example (Screenshot endpoint)
 
 ```py 
 import asyncio
-from ResentAPI import API 
+from kureAPI import API 
     
 api = API("YOUR-API-KEY")
     

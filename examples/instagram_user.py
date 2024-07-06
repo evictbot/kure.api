@@ -1,5 +1,5 @@
 import asyncio
-from ResentAPI import API 
+from kureAPi import API 
 
 api = API("YOUR-API-KEY")
 
